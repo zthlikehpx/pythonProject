@@ -52,3 +52,15 @@ class Student:
 Student.func2('aaa','bb')
 # Student.func()
 
+class Cat:
+    color='black'
+    def __init__(self,name):
+        self.name = name
+    def eat(self,food):
+        self.food = food
+        print(self.name,'正在吃'+food)
+
+
+
+c = Cat('灰灰')
+c.eat('鱼')
